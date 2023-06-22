@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST 2</title>
+    <style>
+        .gi{color: blue;}
+    </style>
+</head>
+<body>
+    <h1>Reservation Request</h1>
+    <br/>
+    <form>
+        <fieldset>
+            <legend class="gi">General Information</legend>
+    <label for="date" > Arrival date:</label> &nbsp; &nbsp;
+    <input id="date" type="date"/> <br/>
+    <label for="number">Nights:</label>      &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    <input id="number" type="number"/> <br/>
+    <label for="adults">Adults:</label>  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+    <select id="adults">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option> 
+        <option>3</option> 
+        <option>4</option>
+        <option>5</option>
+        <option>6</option> 
+        <option>7</option>
+     </select> <br/>
+     <label for="children">Children:</label>  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+     <select id="children">
+         <option>0</option>
+         <option>1</option>
+         <option>2</option> 
+         <option>3</option> 
+         <option>4</option>
+         <option>5</option>
+         <option>6</option> 
+         <option>7</option>
+      </select>
+        </fieldset> <br/>
+        <fieldset>
+            <legend class="gi">Preferences</legend>
+        <label for="room type">Room type:</label> &nbsp; &nbsp;
+      
+        <input name="Choose" id="standrad" type="radio">
+        <label for="standrad"> Standrad</label> &nbsp; &nbsp;
+        <input name="Choose" id="business" type="radio">
+        <label for="business"> Business</label> &nbsp; &nbsp;
+        <input name="Choose" id="suite" type="radio">
+        <label for="suite"> Suite</label> &nbsp; &nbsp; 
+        <br/>
+        
+        <label>Bed type:</label> &nbsp; &nbsp; &nbsp; 
+      
+        <input name="select" id="king" type="radio">
+        <label for="king"> King</label> &nbsp; &nbsp;
+        <input name="select" id="double" type="radio">
+        <label for="deuble"> Double Double</label> &nbsp; &nbsp;
+        <br/>
+        <input type="checkbox" id="smoking">
+        <label for="smoking">Smoking</label>
+        </fieldset> <br/>
+
+       <fieldset>
+        <legend class="gi">Contact Information</legend>
+        <label for="name"> Name:</label>&nbsp; &nbsp; &nbsp;
+        <input id="name" size="20px" required type="text"> <br/>
+        <label for="email"> Email:</label>&nbsp; &nbsp; &nbsp;
+        <input id="email" size="20px" type="email"><br/>
+        <label for="Phone"> Phone:</label>&nbsp; &nbsp; &nbsp;
+        <input id="Phone" size="20px" type="number"><br/>
+       </fieldset><br/>
+ 
+       <button>Submit Reservation</button>
+       <button>Clear</button>
+
+    </form>
+</body>
+</html>
